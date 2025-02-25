@@ -43,6 +43,28 @@ class rectangle{
     }
 }
 
+class tom{
+    public void hit(){
+        System.out.println("hitting the enemy");
+    }
+    public void run(){
+        System.out.println("running towards the enemy");
+    }
+    public void fire(){
+        System.out.println("firing on the enemy");
+    }
+}
+
+//class circle{
+//    float f1;
+//    public float area2(float f){
+//        return 3.14f * f * f;
+//    }
+//    public float peri2(){
+//        return 2 * 3.14f * f1;
+//    }
+//}
+
 public class practice_set_oop {
     public static void main(String[] args) {
 
@@ -75,6 +97,23 @@ public class practice_set_oop {
         int area1 = ra.area1();
         System.out.println("area1 : " + area1);
         System.out.println("peri1: " + ra.peri1());
+
+
+        tom p1 = new tom();
+        p1.fire();
+        p1.hit();
+        p1.run();
+
+
+//        circle c = new circle();
+//        float areacircle = c.area2(5);
+//        System.out.println("area of circle: " + areacircle);
+//
+//
+//        c.f1 = 5;
+//        float periofcircle = c.peri2();
+//        System.out.println("perimeter of circle: " + periofcircle);
+
         }
 
 
